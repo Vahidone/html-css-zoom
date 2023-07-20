@@ -10,9 +10,8 @@ body{
 /* UTILITY */
 
 .container{
-  width: 90%;
-  height: calc(100% - 230px)
-  max-width: 1200px;
+  width: 98%;
+  max-width: 1500px;
   margin: 0 auto;
   margin-top: 150px;
 }
@@ -24,6 +23,9 @@ body{
 .d-flex{
   display: flex;
 }
+
+
+ 
 
 
 
@@ -54,5 +56,22 @@ header button{
 
 /* MAIN  */
 
+main{
+  height: calc(100vh - 230px);
+}
+
+
+.row{
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.col{
+  width: calc(100% / 7);
+  height: calc(100% / 5);
+  flex-wrap: wrap;
+  min-width: 214px;
+}
 
 
