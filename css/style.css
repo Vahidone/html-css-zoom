@@ -17,17 +17,22 @@ body{
   margin-top: 80px;
 
 }
-.debug{
+/* .debug{
   background-color: rgba(233, 159, 159, 0.5);
   border: 1px solid black;
 
-}
+} */
 .d-flex{
   display: flex;
 }
 
 .relative{
   position: relative;
+}
+
+li {
+  cursor: pointer;
+  color: white;
 }
 
 
@@ -81,7 +86,7 @@ main{
 
 
 .pinco{
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .4);
   padding: 5px;
   color: white;
   position: absolute;
@@ -100,4 +105,67 @@ footer{
   height: 80px;
   margin-top: 30px;
   background-color: #222222;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  bottom: 0;
+}
+
+.media {
+  width: 400px;
+  height: 80px;
+  display: inline-block;
+}
+
+.media ul {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.media ul li {
+  margin-right: 30px;
+  font-size: 30px;
+}
+
+.media ul li:nth-child(2){
+  font-size: 15px;
+}
+.media ul li:nth-child(4){
+  font-size: 15px;
+}
+
+
+.menu-center {
+  width: 700px;
+  height: 80px;
+  display: inline-block;
+}
+
+.menu-center ul {
+  list-style: none;
+  margin-top: 10px;
+}
+.menu-center ul li {
+  margin-right: 40px;
+  font-size: 30px;
+}
+
+.menu-center ul li:nth-child(4) {
+  color: green;
+}
+
+
+.menu-center ul li:nth-child(5){
+  font-size: 15px;
+}
+
+.end {
+  width: 120px;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  color: red;
+
 }
